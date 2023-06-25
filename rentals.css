@@ -1,0 +1,158 @@
+body{
+
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+    background-image: url(photo/img1.jpg);
+    /* https://unsplash.com/photos/ZRns2R5azu0 */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+
+}
+
+#heading{
+
+    text-align: center;
+}
+
+#ending,#final{
+
+    margin-right: 14%;
+    text-align: center;
+}
+
+.link{
+
+    background-color: black;
+    color: red;
+    text-decoration: none;
+    margin-left: 44%;
+    padding: 5px;
+    border-radius: 1vw;
+    border: 5px solid black;
+
+}
+
+.link:hover {
+
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+
+}
+
+
+header{
+
+    text-align: center;
+    font-size: 2.5vw;
+    margin: auto;
+
+}
+
+footer{
+
+    text-align: center;
+}
+
+#main{
+
+    background-color: aliceblue;
+    /* height: 42vw; */
+    width: 50vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+.logo{
+
+    height: 8vw;
+    width: 8vw;
+    border-radius: 2vw;
+    border: 5px solid black;
+    margin-left: 5%;
+    /* text-align: center; */
+
+}
+h2{
+
+    background-color: aqua;
+}
+
+h4{
+
+    font-size: 3vw;
+    background-color: aqua;
+}
+
+input{
+
+    border-radius: 2vw;
+    height: 2vw;
+    width: 10vw;
+
+}
+
+#page2{
+
+    background-color: aliceblue;
+    width: 50vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+#ad{
+
+    font-size: 3vw;
+    margin-left: 10%;
+    color: aqua;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 3px 0 #000, 1px 1px 0 #000;
+}
+
+.radiob, .opt{
+
+    margin-right: -6%;
+}
+th{
+
+    padding: 10px;
+    color: aqua;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 3px 0 #000, 1px 1px 0 #000;
+
+}
+#display{
+
+    visibility: hidden;
+    margin-left: 15%;
+
+}
+
+#radiob{
+
+    margin-right: -8%;
+}
+
+#input{
+
+    text-align: center;
+    margin-right: 15%;
+
+}
+ 
+#searchresults{
+
+    margin-left: 15%;
+
+}
+
+#carRent{
+
+    font-size: 2.5vw;
+    color: aqua;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 3px 0 #000, 1px 1px 0 #000;
+
+}

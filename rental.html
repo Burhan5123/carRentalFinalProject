@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href="rentals.css">
+    <script src="rentals.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="page2">
+    <div id="heading">
+    <h4>RENT YOUR FAVORITE CAR</h4>
+    <label>Last Name</label>
+    <input type="text" size="20" id="lastName" placeholder="search by last name" onfocus="loaddata()"><br><br>
+
+    <table id="searchresults"></table>
+
+    </div>
+<form id="display" onsubmit="calculate(); return false;">
+
+    <div id="input">
+    <br><label>Last Name</label><br>
+    <input id="lastname" type="text" maxlength="30" pattern="[A-Za-z -]+$"><br>
+
+    <label>First Name</label><br>
+    <input id="firstname" type="text" maxlength="30" pattern="[A-Za-z -]+$"><br>
+
+    <label>Address</label><br>
+    <input id="address" type="text"><br>
+
+    <label>State/Province</label><br>
+    <input id ="state" type="text"><br>
+
+    <label>E-mail Address</label><br>
+    <input id="emailId" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+
+    <label>Phone Number</label><br>
+    <input id="phnumber" type="tel"  pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"><br><br>
+
+
+    <label id="carRent">Choose the following Vehicle to rent</label><br><br></div>
+    <input class="radiob" type="radio" name="carType" value="15"> Compact       $15/day
+    <img class="logo" src="photo/compact.jpg" alt="img1.png"><br> <!-- https://www.jdpower.com/cars/ratings/quality/2020/top-rated-2020-small-cars-in-quality-according-to-consumers -->
+    <input class="radiob" type="radio" name="carType" value="20"> Mid-size	    $20/day
+    <img class="logo" src="photo/mid.jpg" alt="img1.png"><br> <!-- https://www.jdpower.com/cars/shopping-guides/top-10-2020-midsize-cars-by-customer-satisfaction -->
+    <input class="radiob" type="radio" name="carType" value="35"> Luxury		$35/day
+    <img class="logo" src="photo/luxury.jpg" alt="img1.png"><br> <!-- https://www.topgear.com/car-news/list/here-are-ten-of-the-best-luxury-cars-on-sale -->
+    <input class="radiob" type="radio" name="carType" value="40"> Van/Truck	    $40/day
+    <img class="logo" src="photo/van.jpg" alt="img1.png"><br> <!-- https://www.mercedes-benz-vans.ca/en/home -->
+
+    <br><div id="extras">
+        <label id="ad">Additional Choices: </label><br><br>
+        <input class="opt" type=checkbox name=rack value=5> Roof Rack or Bicycle Rack extra    $5/day<br>
+        <input class="opt" type=checkbox name=gps value=10> GPS extra    $10<br>
+        <input class="opt" type=checkbox name=seat value=0> Child Seat free<br>
+    </div>
+
+    <div id="ending">
+    <br><label>Rental Period</label><br>
+    <input id ="time" type="number" min="1" max="30" value="1"><br><br>
+    <input type="reset" value="Reset"> <input type="submit" value="Submit"><br><br>
+    </div>
+    <div id="final"></div>
+
+</form>
+</div>
+
+    
+</body>
+</html>
